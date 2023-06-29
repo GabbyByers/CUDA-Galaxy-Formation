@@ -13,6 +13,6 @@ int* allocateDevicePixelParticleCounts(int num_pixels);
 unsigned char* allocateDeviceImagePixels(int num_pixels);
 
 void freeDeviceParticles(Particle* device_particles);
-void freeDeviceParticles(int* device_particle_positions);
-void freeDeviceParticles(int* device_pixel_particle_counts);
-void freeDeviceParticles(unsigned char* device_image_pixels);
+void freeDeviceParticlePositions(int* device_particle_positions);
+void freeDevicePixelParticleCounts(int* device_pixel_particle_counts);
+void freeDeviceImagePixels(unsigned char* device_image_pixels);
